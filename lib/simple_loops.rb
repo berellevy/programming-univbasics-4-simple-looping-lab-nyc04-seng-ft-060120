@@ -15,4 +15,5 @@ end
 def return_string_array(array)
     new_array = []
     array.each {|i| new_array.push(i)}
+    new_array
 end
